@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="scss/404/notfound.css">
+</head>
+<body>
+    <div id="adaptive">
+
+        <nav class="navbar">
+            <div class="navbar__wrapper">
+                <div class="navbar__lhand">
+                    <a href="index.html" class="navbar__logo">
+                        spraga's logo
+                        <img src="images/navLogo.svg" alt="spraga's logo - go to homepage" class="navbar__logo_img">
+                        <img src="images/navTabletLogo.svg" alt="spraga's logo - go to homepage"
+                            class="tablet navbar__logo_img">
+                        <img src="images/navMobileLogo.svg" alt="spraga's logo - go to homepage"
+                            class="mobile navbar__logo_img">
+                    </a>
+                    <h1 class="navbar__title">Fermented by living culture</h1>
+                </div>
+                <div class="navbar__rhand desktop">
+                    <ul class="navbar__menu">
+                        <li><a href="catalog.html" class="navbar__menu_link">Our selection</a></li>
+                        <li><a href="about.html" class="navbar__menu_link">About spraga</a></li>
+                        <li><a href="about.html#address" class="navbar__menu_link">Contact us</a></li>
+                    </ul>
+                    <div class="navbar__lang">
+                        <button type="button" class="navbar__lang_btn">
+                            <span class="navbar__lang_txt">EN</span>
+                            <img src="images/smallChevronDown.svg" alt="check the language" class="navbar__lang_icon">
+                        </button>
+                        <div class="navbar__lang_choose">
+                            <a href="https://kagenooi.github.io/spragaStore_cz/" class="navbar__lang_choose_btn">CZ</a>
+                            <a href="https://kagenooi.github.io/spragaStore_en/" class="navbar__lang_choose_btn">EN</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="navbar__mobile">
+                    <button type="button" class="navbar__mobile_btn" onclick="toggleActive('#mobileMenu')">
+                        <img src="images/menu.svg" alt="" class="navbar__mobile_btn_icon">
+                    </button>
+                </div>
+            </div>
+        </nav>
+
+        <div class="navbar__mobile_wrapper" id="mobileMenu">
+            <div class="navbar__mobile_content">
+                <button type="button" class="navbar__mobile_closeBtn" onclick="toggleActive('#mobileMenu')">
+                    <img src="images/close.svg" alt="" class="navbar__mobile_closeBtn_icon">
+                </button>
+                <a href="index.html" class="navbar__mobile_logo">
+                    <img src="images/navMobileLogo.svg" alt="" class="navbar__mobile_logo_img">
+                </a>
+                <p class="navbar__mobile_title">Fermented by living culture </p>
+                <ul class="navbar__mobile_menu">
+                    <li><a href="catalog.html" class="navbar__mobile_menu_link">Our selection</a></li>
+                    <li><a href="about.html" class="navbar__mobile_menu_link">About</a></li>
+                    <li><a href="about.html#address" class="navbar__mobile_menu_link">Contact us</a></li>
+                </ul>
+                <div class="navbar__mobile_social">
+                    <a href="mailto:info@spraga.cz" class="navbar__mobile_social_link mail">info@spraga.cz</a>
+                    <div class="navbar__mobile_social_wrapper">
+                        <a href="https://www.instagram.com/spragacesko" class="navbar__mobile_social_link">
+                            <img src="images/instagram.svg" alt="" class="navbar__mobile_social_link_icon">
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=61564511804432&mibextid=LQQJ4d&rdid=33M3n3yyQk7i3FQS&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2FoqH2gb2yoxEF2o9z%2F%3Fmibextid%3DLQQJ4d" class="navbar__mobile_social_link">
+                            <img src="images/facebookB.svg" alt="" class="navbar__mobile_social_link_icon">
+                        </a>
+                        <a href="https://www.youtube.com/@spragahealthdrinks" class="navbar__mobile_social_link">
+                            <img src="images/youtubeB.svg" alt="" class="navbar__mobile_social_link_icon">
+                        </a>
+                    </div>
+                </div>
+                <p class="navbar__mobile_adress">Czech Republic, <br> Bohemia, city, street, <br> house</p>
+                <div class="navbar__mobile_lang">
+                    <a href="https://kagenooi.github.io/spragaStore_cz/" class="navbar__mobile_lang_btn">Czech</a>
+                    <a href="https://kagenooi.github.io/spragaStore_en/" class="navbar__mobile_lang_btn">English</a>
+                    <!-- <a href="" class="navbar__mobile_lang_btn">German</a> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="notfound">
+            <div class="notfound__wrapper">
+                <h1 class="notfound__title">Hmm, that didn’t work!</h1>
+                <p class="notfound__pr">That page can’t be reached, but if you double-check it,we’re happy to try again.</p>
+                <a href="index.html" class="notfound__link">Back to Homepage</a>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="footer__wrapper">
+                <p class="footer__title">About Spraga</p>
+                <div class="footer__desc">
+                    <ul class="footer__desc_list">
+                        <li class="footer__desc_list_el">Czech quality with a world-class taste</li>
+                        <li class="footer__desc_list_el">Unpasteurised drink</li>
+                        <li class="footer__desc_list_el">Healthy choice for every day</li>
+                    </ul>
+                    <div class="footer__desc_social">
+                        <a href="https://www.instagram.com/spragacesko" class="footer__desc_social_el">
+                            <img src="images/inst.svg" alt="" class="footer__desc_social_el_icon">
+                            <img src="images/instHover.svg" alt="" class="footer__desc_social_el_icon hover">
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=61564511804432&mibextid=LQQJ4d&rdid=33M3n3yyQk7i3FQS&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2FoqH2gb2yoxEF2o9z%2F%3Fmibextid%3DLQQJ4d" class="footer__desc_social_el">
+                            <img src="images/facebook.svg" alt="" class="footer__desc_social_el_icon">
+                            <img src="images/facebookHover.svg" alt="" class="footer__desc_social_el_icon hover">
+                        </a>
+                        <a href="https://www.youtube.com/@spragahealthdrinks" class="footer__desc_social_el">
+                            <img src="images/youtube.svg" alt="" class="footer__desc_social_el_icon">
+                            <img src="images/youtubeHover.svg" alt="" class="footer__desc_social_el_icon hover">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__content">
+                    <div>
+                        <ul class="footer__menu">
+                            <li><a href="catalog.html" class="footer__menu_link">Our collection</a></li>
+                            <li><a href="about.html" class="footer__menu_link">About Spraga</a></li>
+                        </ul>
+                        <div class="footer__banking">
+                            <img src="images/visa.png" alt="" class="footer__banking_logo">
+                            <img src="images/masterCard.png" alt="" class="footer__banking_logo">
+                            <img src="images/applePay.png" alt="" class="footer__banking_logo">
+                            <img src="images/googlePay.png" alt="" class="footer__banking_logo">
+                        </div>
+                    </div>
+                    <div class="footer__contacts">
+                        <a href="mailto:info@spraga.cz" class="footer__contacts_mail">info@spraga.cz</a>
+                    </div>
+                    <div class="footer__subscribe">
+                        <p class="footer__subscribe_title">Newsletter</p>
+                        <p class="footer__subscribe_subtitle">Fresh news every month</p>
+                        <form action="">
+                            <div class="footer__subscribe_form">
+                                <input type="text" name="" placeholder="Enter your email" id="" class="footer__subscribe_form_inp">
+                                <button type="button" class="footer__subscribe_form_btn">
+                                    <img src="images/whiteArr.svg" alt="" class="footer__subscribe_form_btn_icon">
+                                </button>
+                            </div>
+                        </form>
+                        <p class="footer__subscribe_info">Don't worry, we hate spam too! You can unsubscribe at any time
+                        </p>
+                    </div>
+                </div>
+                <div class="footer__bottom">
+                    <p class="footer__copywrite">2023 - 2024 © Spraga</p>
+                    <ul class="footer__bottom_menu">
+                        <li class="footer__bottom_menu_el"><a href="privacy-policy.html" class="footer__bottom_menu_link">Privacy policy</a></li>
+                        <li class="footer__bottom_menu_el"><a href="gdpr.html" class="footer__bottom_menu_link">GDPR</a></li>
+                        <li class="footer__bottom_menu_el"><a href="general-terms.html" class="footer__bottom_menu_link">Terms and Conditions</a></li>
+                    </ul>
+                    <p class="footer__creators">Created by <a href="https://soltreex.com">Soltreex</a></p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="adaptiveMode/adaptive.js"></script>
+    <script src="js/notfound.js"></script>
+</body>
+</html>
