@@ -2079,6 +2079,7 @@ img {
   .advantages__slider_controlers {
     position: relative;
     left: -10px;
+    gap: 150px;
   }
 }
 @media (max-width: 520px) {
