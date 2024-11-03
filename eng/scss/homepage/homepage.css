@@ -571,7 +571,6 @@ img {
 @media (max-width: 980px) {
   .footer__desc {
     flex-direction: column;
-    align-items: flex-start;
     gap: 20px;
   }
 }
