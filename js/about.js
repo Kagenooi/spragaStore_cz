@@ -74,14 +74,14 @@ for (let i = 0; i < clearBtns.length; i++) {
 
 const phoneCodeBtn = document.querySelector('#openPhoneCode');
 const phoneCodeInp = document.querySelector('#phoneCode');
-phoneCodeBtn.addEventListener('click', function() {
+phoneCodeBtn?.addEventListener('click', function() {
     if (this.nextElementSibling.style.maxHeight) {
         this.nextElementSibling.style.maxHeight = null;
     } else {
         this.nextElementSibling.style.maxHeight = this.nextElementSibling.style.maxHeight + this.nextElementSibling.scrollHeight + 'px';
     }
 })
-phoneCodeInp.addEventListener('change', function() {
+phoneCodeInp?.addEventListener('change', function() {
     this.nextElementSibling.style.maxHeight = this.nextElementSibling.style.maxHeight + this.nextElementSibling.scrollHeight + 'px';
 })
 
